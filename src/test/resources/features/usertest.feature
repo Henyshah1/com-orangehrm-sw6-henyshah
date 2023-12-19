@@ -13,7 +13,7 @@ Feature: User Test
     And I click on 'Add' Button
     And I verify 'Add User' Text on that field
     And I select User Role 'Admin'
-    And I enter employee name 'Lisa'
+    And I enter employee name 'Ananya Dash'
     And  I  enter Username 'johnsmith1234567'
     And I Select status 'Disable'
     And I  enter Password 'John@1234' in password field
@@ -84,8 +84,8 @@ Feature: User Test
 
     Examples:
 
-    |UserName               |UserRole           | EmployeeName                       |Status                         |
-    |Admin                  |Admin              | Paul Collings                      |Enable                         |
-    |Cassidy.Hope           | ESS               | Cassidy Hope                       | Enable                        |
-    |Nina.Patel             | ESS               |Nina Patel                          |Enable                         |
-    |Odis.Adalwin           |Admin              |Odis Adalwin                        | Enable                        |
+    |UserName          |UserRole        | EmployeeName          |Status     |
+    |Admin             |Admin           | Paul Collings         |Enable     |
+    |Cassidy.Hope      | ESS            | Cassidy Hope          | Enable    |
+    |Nina.Patel        | ESS            |Nina Patel             |Enable     |
+    |Odis.Adalwin      |Admin           |Odis Adalwin           | Enable    |
